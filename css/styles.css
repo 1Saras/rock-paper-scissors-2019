@@ -1,0 +1,168 @@
+﻿body {
+background-image: url(https://media.giphy.com/media/3osxYfP8SJVa9XpVyo/giphy.gif);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  background-color: inherit;
+  color: black;
+}
+
+nav img {
+  height: 50px;
+}
+
+h1.nav-heading {
+	text-align: center;
+	color: black;
+	padding-left: 90px;
+}
+
+.game {
+	background-color: red;
+	padding-bottom: 5px;
+	color: white;
+}
+
+h1 {
+color: white;
+padding: 10px 10px;
+border-radius: 20px;
+text-align: center;
+}
+
+p.game-instructions {
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	color: white;
+}
+
+.card-body {
+text-align: center;
+
+margin: 5px 1px 10px 1px;
+}
+
+p.rock-exp, p.paper-exp, p.scissors-exp {
+	color: black;
+	font-size: 17px;
+}
+
+.rock-card {
+background-color: #FCFF6C;
+text-align: center;
+border-radius: 10px;
+}
+
+.paper-card {
+background-color: #D89D6A;
+text-align: center;
+border-radius: 10px;
+
+}
+
+.scissors-card {
+background-color: #D7FFAB;
+text-align: center;
+border-radius: 10px;
+
+}
+#rock, #paper, #scissors {
+	border:none;
+	padding: 5px 20px 5px 20px;
+	font-size: 31px;
+	border-radius: 40px;
+	text-align: center;
+}
+
+#rock {
+	color: white;
+	background-color: #6D454C;
+}
+#paper {
+	color: white;
+	background-color: #96ADC8;
+}
+
+#scissors {
+	color: white;
+	background-color: teal;
+}
+
+button#rock:hover {
+  background-color: grey;
+  text-decoration: none;
+}
+
+button#paper:hover {
+  background-color: grey;
+  text-decoration: none;
+}
+
+button#scissors:hover {
+  background-color: grey;
+  text-decoration: none;
+}
+
+.current-move-card {
+	margin-left: 310px;
+	margin-bottom: 5px;
+	text-align: center;
+	padding: 2px;
+	background-color: green;
+	color: white;
+	border-radius: 10px
+}
+
+.currenth2 {
+font-size: 29px;
+}
+
+.you {
+font-size: 18px;
+}
+
+p.mack {
+font-size: 18px;
+}
+
+.result-card {
+	margin-right: 310px;
+	text-align: center;
+	padding: 2px;
+	background-color: green;
+	color: white;
+	border-radius: 10px
+}
+
+.resulth2 {
+font-size: 29px;
+}
+
+.verdicth3 {
+font-size: 21px;
+}
+
+.won {
+font-size: 18px;
+}
+
+.lost {
+font-size: 18px;
+}
+
+.draw {
+font-size: 18px;
+}
+
+.played {
+font-size: 18px;
+}
+
+#footer {
+	color: white;
+}
+
+#copyright {
+	color: white;
+}

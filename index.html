@@ -1,0 +1,139 @@
+﻿
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  <title>Wow Games - play the classics for free</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo." /> </a>
+      <h1 class="nav-heading">Wow Games</h1>
+      <h2 class="nav-slogan"> - Play the classics for free</h2>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="">Ludo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Chess</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Scrabble</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="game">
+    <div class="container">
+      <h1 class="game-name">Rock Paper Scissors</h1>
+      <p class="game-instructions">Click on Rock, Paper or Scissors. Can you beat Mighty Mack?!</p>
+    </div>
+  </header>
+
+  <section id="button-selections">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="rock-card">
+            <div class="card-body">
+              <button id="rock" value="rock">Rock</button>
+              <p class="rock-exp">Rock beats scissors but loses against paper.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="paper-card">
+            <div class="card-body">
+              <button id="paper" value="paper">Paper</button>
+              <p class="paper-exp">Paper beats rock but loses against scissors.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm">
+          <div class="scissors-card">
+            <div class="card-body">
+              <button id="scissors" value="scissors">Scissors</button>
+              <p class="scissors-exp">Scissors beat paper but lose against rock.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="current-move-card">
+          <h2 class="currenth2">Current move</h2>
+          <p class="you">You: <span id="play_you"></span></p>
+          <p class="mack">Mack: <span id="play_machine"></span></p>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="result-card">
+          <h2 class="resulth2">Result</h2>
+          <h3 class="verdicth3">Verdict: <span id="verdict"></span></h3>
+          <p class="won">Won: <span id="game_won">0</span></p>
+          <p class="lost">Lost: <span id="game_lost">0</span></p>
+          <p class="draw">Draw: <span id="game_draw">0</span></p>
+          <p class="played">Played: <span id="game_played">0</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<section id="footer">
+  <footer>
+    <div class="container text-center footer-main">
+      <div class="row">
+        <div class="col-lg align-items-center text-lg-left my-auto">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+        </div>
+        <div class="col-lg text-lg-right legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms of use</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </section>
+
+  <div class="row" id="copyright">
+    <div class="col text-center">
+      <p>©2018 Wow Games</p>
+    </div>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/engine.js"></script>
+
+</body>
+
+</html>
